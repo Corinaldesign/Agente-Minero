@@ -1,0 +1,55 @@
+/* Variables globales */
+:root {
+  --primary-color: #e4e6e8;
+  --secondary-color: #b7b7b7;
+  --secondary-color_2: #afafaf;
+  --morado: #7676e6;
+  --azul: #43a5fb;
+  --verde: #41d4ac;
+  --gris_oscuro: #b7b7b7;
+  --gris_oscuro_2: #707070;
+  --background-color: #d6d6d6;
+  --text-color: #404040;
+  --border-radius: 12px;
+  --transition-speed: 0.3s;
+  --font-family: 'Quicksand','Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos básicos globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  line-height: 1.5;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Media queries básicas */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}

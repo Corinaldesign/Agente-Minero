@@ -1,22 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 :root {
-  --primary-color: #1a73e8;
-  --secondary-color: #4285f4;
-  --background-color: #f8f9fa;
-  --text-color: #202124;
-  --error-color: #d93025;
-  --success-color: #188038;
+  --primary-color: #e4e6e8;
+  --secondary-color: #b7b7b7;
+  --secondary-color_2: #afafaf;
+  --morado: #7676e6;
+  --azul: #43a5fb;
+  --verde: #41d4ac;
+  --gris_oscuro: #b7b7b7;
+  --gris_oscuro_2: #707070;
+  --background-color: #d6d6d6;
+  --text-color: #404040;
+  --border-radius: 12px;
+  --transition-speed: 0.3s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+  overscroll-behavior-y: none;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+@media (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
 }
