@@ -1,0 +1,68 @@
+.chatPanel {
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 4rem);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.messagesContainer {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem 0;
+}
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  max-width: 70%;
+}
+
+.botMessage {
+  background-color: var(--azul);
+  color: white;
+  align-self: flex-start;
+}
+
+.userMessage {
+  background-color: white;
+  color: var(--text-color);
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 0.5rem;
+}
+
+.input {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.sendButton {
+  background-color: var(--azul);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.sendButton:hover {
+  background-color: var(--morado);
+}
