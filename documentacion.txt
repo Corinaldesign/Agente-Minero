@@ -1,0 +1,105 @@
+DOCUMENTACIÓN AGENTE MINERO
+Última actualización: 19/03/2025
+
+===========================================
+ÍNDICE
+===========================================
+1. INTRODUCCIÓN
+2. ESTRUCTURA DEL PROYECTO
+3. COMPONENTES PRINCIPALES
+4. INTEGRACIONES
+5. OPTIMIZACIONES Y CORRECCIONES
+6. MEJORAS DE INTERFAZ
+7. SISTEMA DE ANÁLISIS DE DATOS
+8. PRÓXIMOS PASOS
+
+===========================================
+1. INTRODUCCIÓN
+===========================================
+El Agente Minero es un sistema inteligente diseñado para el análisis y procesamiento de datos en el sector minero. Este documento registra el desarrollo, cambios y mejoras implementadas en el sistema.
+
+===========================================
+2. ESTRUCTURA DEL PROYECTO
+===========================================
+/src
+  /components      - Componentes React
+  /services        - Servicios de API y procesamiento
+  /models          - Modelos de IA y análisis
+  /utils           - Utilidades y helpers
+  /styles          - Estilos y temas
+  /tests           - Tests unitarios y de integración
+
+Archivos principales:
+- main.py         - Punto de entrada backend
+- App.tsx         - Componente principal React
+- requirements.txt - Dependencias del proyecto
+
+===========================================
+3. COMPONENTES PRINCIPALES
+===========================================
+3.1 Backend (FastAPI)
+- Endpoints REST para procesamiento de datos
+- Integración con modelos de IA
+- Sistema de autenticación
+- Gestión de datos en tiempo real
+
+3.2 Frontend (React)
+- Dashboard interactivo
+- Visualización de datos
+- Sistema de alertas
+- Interfaz responsive
+
+3.3 Modelos de IA
+- Análisis predictivo
+- Procesamiento de datos en tiempo real
+- Sistema de recomendaciones
+- Detección de anomalías
+
+===========================================
+4. INTEGRACIONES
+===========================================
+4.1 APIs y Servicios
+- TensorFlow para modelos de IA
+- Pandas para procesamiento de datos
+- Plotly para visualizaciones
+- FastAPI para backend
+
+===========================================
+5. OPTIMIZACIONES Y CORRECCIONES
+===========================================
+[Pendiente de registrar optimizaciones]
+
+===========================================
+6. MEJORAS DE INTERFAZ
+===========================================
+[Pendiente de registrar mejoras de UI/UX]
+
+===========================================
+7. SISTEMA DE ANÁLISIS DE DATOS
+===========================================
+7.1 Capacidades Actuales
+- Procesamiento de datos en tiempo real
+- Análisis predictivo de tendencias
+- Detección de patrones
+- Generación de reportes automáticos
+
+7.2 Métricas Principales
+- Eficiencia de operaciones
+- Predicción de mantenimiento
+- Análisis de rendimiento
+- Indicadores de seguridad
+
+===========================================
+8. PRÓXIMOS PASOS
+===========================================
+8.1 Mejoras Planificadas
+- Implementar sistema de machine learning avanzado
+- Mejorar la interfaz de usuario
+- Optimizar el procesamiento de datos
+- Añadir nuevas integraciones con sensores
+
+8.2 Tareas Pendientes
+- Desarrollar nuevos modelos predictivos
+- Implementar sistema de backup automático
+- Mejorar la documentación de API
+- Optimizar el rendimiento general
